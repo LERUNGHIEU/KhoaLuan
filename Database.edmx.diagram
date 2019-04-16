@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7cdc3a3c6f514abf933703bb6a50f579" Name="Diagram1">
+        <EntityTypeShape EntityType="db_thitinhocModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_cauhoi" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_chitiet_phieulambai" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_danhsachthi" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_dethi" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_dethi_cauhoi" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_dotthi" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_ketquahoctap" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_lop" Width="1.5" PointX="1.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_mail" Width="1.5" PointX="5.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_mucdocauhoi" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_phieulambai" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_phuongan" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_sinhvien" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_thitinhocModel.tbl_thanhvien" Width="1.5" PointX="0.75" PointY="17.375" IsExpanded="true" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_cauhoi_tbl_ketquahoctap" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_cauhoi_tbl_mucdocauhoi" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_dethi_cauhoi_tbl_cauhoi" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_phuongan_tbl_cauhoi" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_chitiet_phieulambai_tbl_dethi_cauhoi" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_chitiet_phieulambai_tbl_phieulambai" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_danhsachthi_tbl_dotthi" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_danhsachthi_tbl_sinhvien" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_dethi_cauhoi_tbl_dethi1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_dethi_tbl_dotthi1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_dethi_tbl_thanhvien" ManuallyRouted="false" />
+        <AssociationConnector Association="db_thitinhocModel.FK_tbl_dotthi_tbl_lop" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
